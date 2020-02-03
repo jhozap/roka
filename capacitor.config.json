@@ -1,0 +1,8 @@
+{
+  "appId": "com.roka.app",
+  "appName": "Roka",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
