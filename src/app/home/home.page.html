@@ -4,45 +4,96 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Home
+      <img src="../../assets/img/Head2.png" alt="" />
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <img src="../../assets/img/Slide1.jpg" alt="Slide 1" srcset="" />
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/Slide2.jpg" alt="Slide 2" srcset="" />
+    </ion-slide>
+  </ion-slides>
+
   <ion-card class="welcome-card">
-    <img src="/assets/shapes.svg" alt=""/>
     <ion-card-header>
-      <ion-card-subtitle>Get Started</ion-card-subtitle>
-      <ion-card-title>Welcome to Ionic</ion-card-title>
+      <ion-card-title class="title">Propósito</ion-card-title>
     </ion-card-header>
     <ion-card-content>
       <p>
-        Now that your app has been created, you'll want to start building out features
-        and components. Check out some of the resources below for next steps.
+        El Ministerio Roka (Pasión Por Las Almas) basa su visión, En llevar a
+        cabo las enseñanzas que recibimos DEL SEÑOR JESÚS: Humildad, Amor,
+        Servicio, reconciliación y pasión por los perdidos. Y así, dar
+        testimonio de la gracia y la Salvación que vienen de DIOS.
+      </p>
+      <p>Hechos 20:24</p>
+      <hr />
+      <p>
+        24 Pero de ninguna cosa hago caso, ni estimo preciosa mi vida para mí
+        mismo, con tal que acabe mi carrera con gozo, y el ministerio que recibí
+        del Señor Jesús, para dar testimonio del evangelio de la gracia de Dios.
       </p>
     </ion-card-content>
   </ion-card>
 
-  <ion-list lines="none">
-    <ion-list-header>
-      <ion-label>Resources</ion-label>
-    </ion-list-header>
-    <ion-item href="https://ionicframework.com/docs/">
-      <ion-icon slot="start" color="medium" name="book"></ion-icon>
-      <ion-label>Ionic Documentation</ion-label>
-    </ion-item>
-    <ion-item href="https://ionicframework.com/docs/building/scaffolding">
-      <ion-icon slot="start" color="medium" name="build"></ion-icon>
-      <ion-label>Scaffold Out Your App</ion-label>
-    </ion-item>
-    <ion-item href="https://ionicframework.com/docs/layout/structure">
-      <ion-icon slot="start" color="medium" name="grid"></ion-icon>
-      <ion-label>Change Your App Layout</ion-label>
-    </ion-item>
-    <ion-item href="https://ionicframework.com/docs/theming/basics">
-      <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
-      <ion-label>Theme Your App</ion-label>
-    </ion-item>
-  </ion-list>
+  <img src="../../assets/img/aside1.jpg" alt="aside 1" />
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title class="title">Nuestros Líderes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        DIOS no une vidas… une propósitos. <br />
+        William Arana, Martha Ginneth Rincón, Jair Montenegro y Sandra Morales.
+      </p>
+      <hr />
+      <p>
+        Llevan años comunicando vida a través de la palabra de DIOS, restaurando
+        hogares e impactando Naciones con el mensaje de la Salvación.
+      </p>
+      <hr />
+      <p>
+        Ahora lideran El Ministerio RoKa (Pasión Por las Almas) Y anhelan llegar
+        hasta lo último de la tierra llevando a JESUCRISTO a cada corazón.
+      </p>
+    </ion-card-content>
+    <img src="../../assets/img/aside2.jpg" alt="aside 2" />
+    <hr />
+    <img src="../../assets/img/aside3.jpg" alt="aside 3" />
+  </ion-card>
+
+  <ion-card class="welcome-card destacado">
+    <ion-card-header>
+      <ion-card-title>Escuela de Liderazgo Roka</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        En el Ministerio Roka (Pasión por las almas) estamos convencidos que es
+        necesaria la formación integral del ser humano, para impactar la
+        sociedad. Por eso a través de nuestra Escuela de Liderazgo Roka,
+        formamos hombres y mujeres en los principios Bíblicos, para que
+        posteriormente enseñen a otros y así transformar al mundo con el
+        sobrenatural Amor de Dios.
+      </p>
+      <hr />
+      <p>
+        <b>2 Timoteo 2:2</b>
+      </p>
+      <p>
+        Lo que has oído de mí ante muchos testigos, esto encarga a hombres
+        fieles que sean idóneos para enseñar también a otros.
+      </p>
+      <hr />
+      <ion-button color="danger" expand="block">
+        <ion-icon slot="start" name="checkbox-outline"></ion-icon>
+         Espera más información...
+      </ion-button>
+      <hr />
+      <img src="../../assets/img/aside5.png" alt="aside 5" />
+    </ion-card-content>    
+  </ion-card>
 </ion-content>
